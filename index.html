@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jimmy Dong | Electrical & Computer Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Jimmy Dong's Electrical and Computer Engineering portfolio featuring embedded systems, MSP432 robotics, FPGA design, power supply prototyping, digital logic, and circuit validation."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top"><span>JD</span> Jimmy Dong</a>
+        <div class="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-panel">
+          <div class="portrait-card" aria-label="Profile portrait">
+            <img class="portrait-photo" src="assets/profile-headshot.png" alt="Headshot of Jimmy Dong" />
+            <div class="portrait-ring"></div>
+          </div>
+          <p class="eyebrow">Electrical Engineering Technology + Computer Engineering Technology</p>
+          <h1>Jimmy Dong</h1>
+          <p class="hero-title">Hands-on embedded systems, digital logic, robotics, and circuit design portfolio.</p>
+          <p class="hero-summary">
+            RIT double-major candidate building practical hardware/software systems: MSP432 robotics, FPGA logic,
+            power electronics prototypes, sensor-data workflows, and lab-validated analog circuits.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="assets/Jimmy_Dong_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/jimmydong4145" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button ghost" href="#projects">View Projects</a>
+          </div>
+        </div>
+        <div class="hero-showcase" aria-label="Featured engineering project preview">
+          <img src="assets/IMG-0508.jpg" alt="Full MSP432 poker bot with card deck, external power, and robot chassis" />
+          <div class="showcase-caption">
+            <span>Featured Build</span>
+            <strong>MSP432 Automated Poker Card Dealer</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Portfolio highlights">
+        <div>
+          <span class="metric">RIT</span>
+          <p>B.S. double major in Computer Engineering Technology and Electrical Engineering Technology.</p>
+        </div>
+        <div>
+          <span class="metric">EE + CE</span>
+          <p>Projects connect circuits, firmware, digital logic, motors, sensors, and measurement.</p>
+        </div>
+        <div>
+          <span class="metric">Build-Test-Iterate</span>
+          <p>Strong emphasis on physical prototyping, validation, debugging, and clear technical documentation.</p>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Resume Snapshot</p>
+          <h2>Experience and Education</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item accent">
+            <div>
+              <p class="date">May 2028</p>
+              <h3>Rochester Institute of Technology</h3>
+              <p>B.S. double major in Computer Engineering Technology and Electrical Engineering Technology.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <p class="date">Jun 2024 - Aug 2024</p>
+              <h3>Research Intern - Environmental Data Systems</h3>
+              <p>
+                Integrated sensors and data-acquisition hardware for environmental monitoring research, improving data accuracy
+                and supporting real-time analysis and visualization work with UNC Chapel Hill and Morehead Planetarium.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <p class="date">Sep 2025 - Present</p>
+              <h3>Electric Vehicle Team - Wire Harness</h3>
+              <p>
+                Routed harness systems, performed continuity testing, verified voltage paths, and supported diagnosis of
+                connector, signal, drivetrain, and control-module issues against safety and performance needs.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Engineering Projects</h2>
+        </div>
+
+        <article class="project feature">
+          <div class="project-media">
+            <video controls preload="metadata" poster="assets/robotics-demo-poster.jpg">
+              <source src="assets/robotics-demo.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="project-copy">
+            <p class="project-kicker">Embedded Systems / Audio Signaling</p>
+            <h3>Robot-Based Audio Transmission Demo</h3>
+            <p>
+              Built a robotics-based sound transmission demo that played "Twinkle, Twinkle, Little Star" through a controlled
+              embedded setup. The project connected timing logic, signal routing, wiring discipline, and hardware debugging
+              into a working demonstration with recognizable audio output.
+            </p>
+            <ul class="tags" aria-label="Skills used">
+              <li>Embedded timing</li>
+              <li>Audio signaling</li>
+              <li>Signal routing</li>
+              <li>Hardware debugging</li>
+            </ul>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project">
+            <button class="image-button" data-full="assets/IMG-4161-1.jpg" aria-label="Open poker bot mechanism image">
+              <img src="assets/IMG-4161-1.jpg" alt="MSP432 card dealing robot mechanism with DC gearbox motor, servo, and mounted hardware" />
+            </button>
+            <div class="project-copy">
+              <p class="project-kicker">Microcontrollers / Robotics</p>
+              <h3>MSP432 Automated Poker Card Dealer</h3>
+              <p>
+                Designed and built an automated card-dealing robot using an MSP432, TB6612FNG motor driver, DC gearbox motor,
+                servo, and 3D-printed dispenser. The system used GPIO direction control, TimerA PWM speed control, and staged
+                validation to dispense cards reliably.
+              </p>
+              <a class="project-link" href="https://xkai21.github.io/msp-432-card-dealer/" target="_blank" rel="noreferrer">View full project write-up</a>
+              <ul class="tags" aria-label="Skills used">
+                <li>MSP432</li>
+                <li>Embedded C</li>
+                <li>TimerA PWM</li>
+                <li>Servo + DC motor</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-media compact">
+              <video controls preload="metadata" poster="assets/digital-logic-demo-poster.jpg">
+                <source src="assets/digital-logic-demo.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="project-copy">
+              <p class="project-kicker">Digital Systems / FPGA</p>
+              <h3>Digital Logic and Seven-Segment Display Design</h3>
+              <p>
+                Designed and validated digital logic for binary inputs, decoded output states, and seven-segment display behavior.
+                The work connects truth-table development, Boolean reasoning, FPGA-board implementation, and visual verification
+                on real hardware.
+              </p>
+              <ul class="tags" aria-label="Skills used">
+                <li>Digital logic</li>
+                <li>Seven-segment display</li>
+                <li>FPGA workflow</li>
+                <li>Truth tables</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <button class="image-button" data-full="assets/IMG-0584.jpg" aria-label="Open analog measurement image">
+              <img src="assets/IMG-0584.jpg" alt="Breadboard analog circuit connected with alligator clip test leads" />
+            </button>
+            <div class="project-copy">
+              <p class="project-kicker">Analog Circuits / Measurement</p>
+              <h3>Signal Conditioning and Circuit Measurement Lab</h3>
+              <p>
+                Assembled and evaluated resistor-capacitor networks using external test leads for measurement. The project
+                emphasized node selection, component placement, expected-versus-measured behavior, and methodical validation.
+              </p>
+              <ul class="tags" aria-label="Skills used">
+                <li>RC networks</li>
+                <li>Bench testing</li>
+                <li>Signal analysis</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <button class="image-button" data-full="assets/IMG-9735.jpg" aria-label="Open power supply image">
+              <img src="assets/IMG-9735.jpg" alt="Power supply breadboard prototype with a large capacitor, passive components, and test leads" />
+            </button>
+            <div class="project-copy">
+              <p class="project-kicker">Power Electronics / Circuit Design</p>
+              <h3>Power Supply Design and Filtering Prototype</h3>
+              <p>
+                Prototyped a power supply circuit using bulk capacitance, passive components, and accessible test nodes.
+                The build demonstrates power-conditioning fundamentals, stable wiring, load-aware testing, and filtering behavior.
+              </p>
+              <ul class="tags" aria-label="Skills used">
+                <li>Power filtering</li>
+                <li>Capacitor behavior</li>
+                <li>Bench validation</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="media-wall" aria-label="Additional project media">
+          <button class="image-button" data-full="assets/IMG-0508.jpg"><img src="assets/IMG-0508.jpg" alt="MSP432 poker bot with card deck, external power, and robot chassis" /></button>
+          <button class="image-button tall" data-full="assets/IMG-B660F4B2-6F2E-4ECA-B125-A7A79A3F578A-1.jpg"><img src="assets/IMG-B660F4B2-6F2E-4ECA-B125-A7A79A3F578A-1.jpg" alt="Top-down MSP432 poker bot wiring with breadboard and motor driver connections" /></button>
+          <button class="image-button" data-full="assets/IMG-8488.jpg"><img src="assets/IMG-8488.jpg" alt="FPGA development board powered on during digital logic prototyping" /></button>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Profile</p>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div>
+            <h3>Hardware</h3>
+            <p>Power supply prototyping, circuit analysis, analog filters, wire harness routing, soldering, and bench measurement.</p>
+          </div>
+          <div>
+            <h3>Embedded + Digital</h3>
+            <p>MSP432/MSP430, embedded C, PWM control, FPGA boards, VHDL, Quartus, ModelSim, and digital logic design.</p>
+          </div>
+          <div>
+            <h3>Software + Tools</h3>
+            <p>C/C++, Python, Java, R, MATLAB, Altium, Microsoft Office 365, and technical documentation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div>
+          <p class="eyebrow">Available for internships, co-ops, and entry-level engineering roles</p>
+          <h2>Electrical and Computer Engineering candidate ready to build, test, and debug real systems.</h2>
+          <p>Rochester, NY · jd1280@rit.edu · +1 910-405-9317</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="assets/Jimmy_Dong_Resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
+          <a class="button secondary light" href="https://www.linkedin.com/in/jimmydong4145" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="lightbox" aria-label="Image preview">
+      <button class="close-lightbox" aria-label="Close image preview">x</button>
+      <img alt="" />
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
