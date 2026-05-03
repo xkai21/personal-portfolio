@@ -534,7 +534,7 @@ h3 {
   color: white;
   background:
     linear-gradient(135deg, rgba(20, 37, 51, 0.96), rgba(31, 82, 88, 0.92)),
-    url("assets/IMG-4161-1.jpg") center/cover;
+    url("IMG-4161-1.jpg") center/cover;
 }
 
 .contact h2 {
