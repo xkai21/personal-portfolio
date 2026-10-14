@@ -34,8 +34,8 @@
           <h1>Jimmy Dong</h1>
           <p class="hero-title">Hands-on embedded systems, digital logic, robotics, and circuit design portfolio.</p>
           <p class="hero-summary">
-            RIT double-major candidate building practical hardware/software systems: MSP432 robotics, FPGA logic,
-            power electronics prototypes, sensor-data workflows, and lab-validated analog circuits.
+            RIT double-major candidate building embedded systems with C and VHDL, from an MSP432 Texas Hold'em
+            card dealer to FPGA controllers, wire harnesses, and circuits verified through simulation and bench testing.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="Jimmy_Dong_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
@@ -75,28 +75,21 @@
         <div class="timeline">
           <article class="timeline-item accent">
             <div>
-              <p class="date">May 2028</p>
+              <p class="date">Expected May 2028</p>
               <h3>Rochester Institute of Technology</h3>
               <p>B.S. double major in Computer Engineering Technology and Electrical Engineering Technology.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div>
-              <p class="date">Jun 2024 - Aug 2024</p>
-              <h3>Research Intern - Environmental Data Systems</h3>
-              <p>
-                Integrated sensors and data-acquisition hardware for environmental monitoring research, improving data accuracy
-                and supporting real-time analysis and visualization work with UNC Chapel Hill and Morehead Planetarium.
-              </p>
+              <p>Coursework: Advanced Electronics, Signals &amp; Systems, Hardware Description Language, Electronic Devices,
+                Microcontroller Systems, Digital Systems Design, and Circuits I &amp; II.</p>
             </div>
           </article>
           <article class="timeline-item">
             <div>
               <p class="date">Sep 2025 - Present</p>
-              <h3>Electric Vehicle Team - Wire Harness</h3>
+              <h3>DEV1 Wire Harness Team | RIT Electric Vehicle Team</h3>
               <p>
-                Routed harness systems, performed continuity testing, verified voltage paths, and supported diagnosis of
-                connector, signal, drivetrain, and control-module issues against safety and performance needs.
+                Integrated and routed wire harnesses to reduce signal interference and improve electrical reliability.
+                Performed continuity, voltage, and signal validation, and helped diagnose connector failures and
+                signal inconsistencies in drivetrain and control modules.
               </p>
             </div>
           </article>
@@ -116,11 +109,13 @@
             </button>
             <div class="project-copy">
               <p class="project-kicker">Microcontrollers / Robotics</p>
-              <h3>MSP432 Automated Poker Card Dealer</h3>
+              <h3>Automated Texas Hold'em Card-Dispensing Robot</h3>
+              <p class="date">Apr 2026 - May 2026</p>
               <p>
-                Designed and built an automated card-dealing robot using an MSP432, TB6612FNG motor driver, DC gearbox motor,
-                servo, and 3D-printed dispenser. The system used GPIO direction control, TimerA PWM speed control, and staged
-                validation to dispense cards reliably.
+                Developed an MSP432 card-dispensing system in Embedded C with a state machine organizing player,
+                discard, flop, turn, and river operations. Integrated a TB6612FNG driver and DC feeder motor with GPIO
+                and TimerA PWM to control direction, speed, and feeding duration. Tested low-level timer and motor-control
+                functions while troubleshooting hardware and firmware integration.
               </p>
               <a class="project-link" href="https://xkai21.github.io/msp-432-card-dealer/" target="_blank" rel="noreferrer">View full project write-up</a>
               <ul class="tags" aria-label="Skills used">
@@ -202,6 +197,36 @@
         </div>
       </section>
 
+      <section class="section" aria-labelledby="additional-projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Additional Engineering Work</p>
+          <h2 id="additional-projects-title">Control, Analysis, and Firmware</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="date">Oct 2025 - Dec 2025</p>
+            <h3>Vending Machine Controller</h3>
+            <p>Designed a finite state machine in VHDL to accept nickels, dimes, and quarters for a $0.75 product,
+              with correct change handling. Implemented dispense validation, coin returns, and invalid-deposit handling,
+              and displayed the running balance on dual seven-segment displays.</p>
+          </article>
+          <article class="timeline-item">
+            <p class="date">Sep 2025 - Oct 2025</p>
+            <h3>Parallel Resonance Band-Pass Filter Design</h3>
+            <p>Analyzed ideal and non-ideal inductor models to determine resonant frequency, Q factor, bandwidth,
+              and voltage gain. Compared theory with AC sweep simulations and collected more than 50 physical frequency-response
+              measurements to evaluate how inductor series resistance affects Q factor and bandwidth.</p>
+          </article>
+          <article class="timeline-item">
+            <p class="date">Feb 2025 - Apr 2025</p>
+            <h3>MSP430 Seven-Segment Display Controller</h3>
+            <p>Programmed a multiplexed four-digit display in C using GPIO and timer-based refresh logic. Implemented
+              digit extraction and display refreshing without visible flicker, integrated switch inputs, and validated
+              timing across multiple operating conditions.</p>
+          </article>
+        </div>
+      </section>
+
       <section id="skills" class="section skills-section">
         <div class="section-heading">
           <p class="eyebrow">Technical Profile</p>
@@ -210,15 +235,15 @@
         <div class="skills-grid">
           <div>
             <h3>Hardware</h3>
-            <p>Power supply prototyping, circuit analysis, analog filters, wire harness routing, soldering, and bench measurement.</p>
+            <p>MSP430/MSP432, DE0-CV FPGA, soldering, prototyping, circuit analysis, and wire harness validation.</p>
           </div>
           <div>
             <h3>Embedded + Digital</h3>
-            <p>MSP432/MSP430, embedded C, PWM control, FPGA boards, VHDL, Quartus, ModelSim, and digital logic design.</p>
+            <p>C/C++, VHDL, Python, MATLAB, Java, and R. Project experience with state machines, GPIO, timers, and PWM.</p>
           </div>
           <div>
             <h3>Software + Tools</h3>
-            <p>C/C++, Python, Java, R, MATLAB, Altium, Microsoft Office 365, and technical documentation.</p>
+            <p>Altium Designer, Quartus, and ModelSim.</p>
           </div>
         </div>
       </section>
